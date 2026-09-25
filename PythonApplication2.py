@@ -1,8 +1,7 @@
 ﻿import pandas as pd
 
 # 1. مسار ملف الأكسل
-excel_path = r'C:\Users\allaa\OneDrive\Desktop\New folder\Telco_Customer_Churn.xlsx'
-
+excel_path = 'Telco_Customer_Churn.xlsx'
 # 2. قراءة البيانات
 df = pd.read_excel(excel_path)
 
